@@ -1,14 +1,14 @@
 from django.shortcuts import render, HttpResponse
 
+
+
 # Create your views here.
 
 def home(request):
 
     return render(request, "Web1MHApp/Home.html")
 
-def tratamientos(request):
 
-    return render(request, "Web1MHApp/tratamientos.html")
 
 def tienda(request):
 
