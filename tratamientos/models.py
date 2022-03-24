@@ -13,5 +13,5 @@ class Tratamiento(models.Model):
         verbose_name='tratamiento'
         verbose_name_plural='tratamientos'
 
-def __str__(self):
-    return self.titulo
+    def __str__(self):
+        return self.titulo
