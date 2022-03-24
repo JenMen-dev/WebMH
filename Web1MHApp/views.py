@@ -14,9 +14,7 @@ def tienda(request):
 
     return render(request, "Web1MHApp/tienda.html")
 
-def blog(request):
 
-    return render(request, "Web1MHApp/blog.html")
 
 def contacto(request):
 
